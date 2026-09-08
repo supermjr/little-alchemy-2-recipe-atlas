@@ -20,4 +20,4 @@ Little Alchemy 2 and associated game materials belong to their respective owners
 
 ## Project-specific code
 
-No new license has been selected in this package for the original interface or project-specific code. The upstream dataset's MIT notice is not a statement that every part of this repository is under that license. The repository owner can make a separate licensing decision.
+No separate license has been selected for the original interface or project-specific code. The upstream dataset's MIT notice is not a project-wide license. See [LICENSING.md](LICENSING.md) for the component-by-component scope. The repository owner can make a separate licensing decision; an automatically detected MIT label does not expand the upstream notice to every file.

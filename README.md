@@ -1,5 +1,9 @@
 # Mario's Alchemy Recipe Book
 
+**Alchemy Atlas — Little Alchemy 2 Recipe Explorer**
+
+[Open the live demo](https://supermjr.github.io/little-alchemy-2-recipe-atlas/) · [Try the Bacon example](https://supermjr.github.io/little-alchemy-2-recipe-atlas/#item-220) · [Publishing guide](PUBLISHING.md)
+
 An unofficial, self-contained **Little Alchemy 2** recipe companion. Search the catalog, inspect alternative recipes, and follow ingredients back to the starting elements.
 
 ## What is included
@@ -19,27 +23,19 @@ Open `index.html` in a modern browser. No installation, web server, package mana
 
 ## Publish with GitHub Pages
 
-See [PUBLISHING.md](PUBLISHING.md) for the complete browser-only procedure.
+See [PUBLISHING.md](PUBLISHING.md) for publishing, updates, folder repair, and repository presentation settings.
 
 Recommended configuration:
 
 | Setting | Value |
 |---|---|
-| Repository | `supermjr/little-alchemy-recipe-book` |
+| Repository | `supermjr/little-alchemy-2-recipe-atlas` |
 | Visibility | Public |
 | Pages source | Deploy from a branch |
 | Branch | `main`, or the actual default branch containing the uploaded files |
 | Folder | `/(root)` |
 
-After GitHub Pages has been enabled and the first deployment succeeds, the expected default demo address is:
-
-`https://supermjr.github.io/little-alchemy-recipe-book/`
-
-The corresponding Bacon deep link is:
-
-`https://supermjr.github.io/little-alchemy-recipe-book/#item-220`
-
-These are configuration targets, not evidence that deployment has already occurred. No custom domain or custom Actions workflow is required. `.nojekyll` tells GitHub Pages to serve the prepared static files without Jekyll processing.
+The demo and Bacon links at the top of this README use this repository's final name. Check the repository's **Actions** tab and **Settings → Pages → Visit site** for the current deployment status. No custom domain or custom Actions workflow is required. `.nojekyll` tells GitHub Pages to serve the prepared static files without Jekyll processing.
 
 ## Repository contents
 
@@ -49,7 +45,8 @@ These are configuration targets, not evidence that deployment has already occurr
 | `.nojekyll` | Empty file disabling Jekyll processing for branch-based publishing. |
 | `README.md` | Project overview and local-use instructions. |
 | `PUBLISHING.md` | Initial publishing, verification, updates, and troubleshooting. |
-| `SOURCE_LICENSE.txt` | Preserved MIT notice for the upstream recipe dataset. |
+| `SOURCE_LICENSE.txt` | Preserved MIT notice for the upstream recipe dataset, not a project-wide license. |
+| `LICENSING.md` | Explains the separate licensing scope of the dataset and project-specific code. |
 | `THIRD_PARTY_NOTICES.md` | Attribution and qualification of third-party content. |
 | `data/catalog.json` | Structured items, recipes, ingredient pairs, selected routes, and build sequence for future visualization work. |
 | `data/validation_report.json` | Original catalog structural-validation report. |
@@ -81,4 +78,6 @@ This is an unofficial fan-made companion and is not affiliated with or endorsed 
 
 Recipe data is adapted from [mrkvon/alchemy](https://github.com/mrkvon/alchemy/blob/main/src/alchemy.json). Preserve the included upstream MIT notice. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-**Licensing status of this project:** this package does not select a new license for the original interface and project-specific code on the owner's behalf. `SOURCE_LICENSE.txt` is the upstream dataset's notice, not a blanket license for the entire project.
+## License scope
+
+**This repository does not currently declare a project-wide open-source license.** The upstream recipe dataset carries the MIT notice in [SOURCE_LICENSE.txt](SOURCE_LICENSE.txt); no separate license has been selected for the original interface and project-specific code. Do not interpret a GitHub-generated MIT label as licensing the entire project. See [LICENSING.md](LICENSING.md) for the component-by-component scope.
