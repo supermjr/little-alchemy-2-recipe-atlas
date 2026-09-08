@@ -1,4 +1,4 @@
-# Theodore's Alchemy Recipe Book
+# Mario's Alchemy Recipe Book
 
 An unofficial, self-contained **Little Alchemy 2** recipe companion. Search the catalog, inspect alternative recipes, and follow ingredients back to the starting elements.
 
@@ -75,7 +75,7 @@ Update `index.html` on the configured publishing branch and commit the change. G
 
 ## Privacy and attribution
 
-The application contains no analytics, advertising, external script dependencies, login, or user-input submission. Hosting providers can still process ordinary web requests under their own privacy policies. The title contains Theodore's first name; do not publish additional personal information unintentionally.
+The application contains no analytics, advertising, external script dependencies, login, or user-input submission. Hosting providers can still process ordinary web requests under their own privacy policies. The title contains Mario's first name; do not publish additional personal information unintentionally.
 
 This is an unofficial fan-made companion and is not affiliated with or endorsed by the developers of Little Alchemy 2. No original game artwork or descriptive encyclopedia prose is included.
 
