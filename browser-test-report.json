@@ -1,0 +1,21 @@
+{
+  "tested_on": "2026-09-07",
+  "runtime": "Chromium, desktop and mobile viewport, HTML loaded into memory",
+  "result": "PASS",
+  "checks": [
+    "In-memory HTML renders all 720 items and 3,452 recipe entries",
+    "Name search and 12-step Bacon route work",
+    "Ingredient navigation opens Pig and clears filters",
+    "Ingredient-inclusive search works",
+    "No-match state works",
+    "Initial Bacon URL-fragment handler opens Bacon",
+    "Time-dependent route displays the prerequisite milestone",
+    "390px mobile layout has no horizontal overflow; recipe expansion works",
+    "No JavaScript errors or network requests during in-memory browser tests"
+  ],
+  "limitations": [
+    "Local HTTP navigation was blocked by the environment browser policy; no HTTP or file-URL deployment test was completed.",
+    "GitHub repository and Pages site have not been created by this task."
+  ],
+  "live_github_deployment_verified": false
+}

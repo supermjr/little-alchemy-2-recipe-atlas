@@ -1,0 +1,26 @@
+{
+  "compiled_on": "2026-09-07",
+  "item_count": 720,
+  "recipe_entry_count": 3452,
+  "distinct_input_pair_count": 3308,
+  "multi_output_input_pair_count": 137,
+  "source_recipe_rows_before_deduplication": 3455,
+  "duplicate_rows_removed": 3,
+  "duplicate_results": [
+    "Zombie",
+    "Ring",
+    "Avalanche"
+  ],
+  "unresolved_ingredient_ids": [],
+  "items_missing_recipe_or_start_or_unlock": [],
+  "acyclic_selected_recipe_count": 715,
+  "build_sequence_mix_count": 689,
+  "build_sequence_final_item_count": 720,
+  "time_dependent_first_discoveries": [
+    "Time",
+    "Ruins",
+    "Archeologist"
+  ],
+  "validation_scope": "Structural validation against the source recipe dataset, plus selected guide spot-checks. Not live in-game testing.",
+  "source_transcription_sha256": "3e180b48f0251c1dd4adde19093f9c9ba741fd72224ad5118468740985185978"
+}
